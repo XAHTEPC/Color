@@ -1,0 +1,343 @@
+CREATE ROLE "SuperVisor" WITH
+	NOLOGIN
+	NOSUPERUSER
+	NOCREATEDB
+	NOCREATEROLE
+	INHERIT
+	NOREPLICATION
+	CONNECTION LIMIT -1;
+	
+CREATE ROLE "Analyst" WITH
+	NOLOGIN
+	NOSUPERUSER
+	NOCREATEDB
+	NOCREATEROLE
+	INHERIT
+	NOREPLICATION
+	CONNECTION LIMIT -1;
+	
+CREATE ROLE "Manager" WITH
+	NOLOGIN
+	NOSUPERUSER
+	NOCREATEDB
+	NOCREATEROLE
+	INHERIT
+	NOREPLICATION
+	CONNECTION LIMIT -1;
+
+CREATE ROLE "Staff" WITH
+	NOLOGIN
+	NOSUPERUSER
+	NOCREATEDB
+	NOCREATEROLE
+	INHERIT
+	NOREPLICATION
+	CONNECTION LIMIT -1;
+
+CREATE ROLE "Administrator" WITH
+	NOLOGIN
+	SUPERUSER
+	CREATEDB
+	CREATEROLE
+	INHERIT
+	NOREPLICATION
+	CONNECTION LIMIT -1;
+
+
+CREATE ROLE "Davydovarseniyvladislavovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD '%7pfBN!7sv';
+GRANT "Staff" TO "Davydovarseniyvladislavovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Shishkinmaximyaroslavovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1
+                PASSWORD 'UwL#Vg?E4B';
+GRANT "Staff" TO "Shishkinmaximyaroslavovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "RybakovMikhaiLvovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1
+                PASSWORD 'R9FCy?&i%b';
+GRANT "Staff" TO "RybakovMikhaiLvovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Kalininaroslavgordeevich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1
+               	PASSWORD 'Tu0S4&^X#A';
+GRANT "Staff" TO "Kalininaroslavgordeevich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "KomarovMaximiVanovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD '7#UFl!d@ad';
+GRANT "Staff" TO "KomarovMaximiVanovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "BykovKirillMaximovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'yMWYF$1nsT';
+GRANT "Staff" TO "BykovKirillMaximovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Popovpavelleonidovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'TTk?X801qj';
+GRANT "Staff" TO "Popovpavelleonidovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "LeonovaKarolinaOlegovna@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'NC4&S^Z5eg';
+GRANT "Staff" TO "LeonovaKarolinaOlegovna@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Pakhomovaavroradaniilovna@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'Dx%T0JL5sV';
+GRANT "Staff" TO "Pakhomovaavroradaniilovna@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "SazonovaekaterinaAlexeevna@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'Bq&X1rqSf#';
+GRANT "Staff" TO "SazonovaekaterinaAlexeevna@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "PanovaEvaDenisovna@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'UDZm&Uu0rB';
+GRANT "Staff" TO "PanovaEvaDenisovna@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "Yakovlevolegalexandrovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'ne8J9$3PlS';
+GRANT "Staff" TO "Yakovlevolegalexandrovich@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "Shapovalovandreiglebovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'xttK0ZMN#T';
+GRANT "Staff" TO "Shapovalovandreiglebovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Kireevpetrevgenyevich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'F7v3yv&!yB';
+GRANT "Staff" TO "Kireevpetrevgenyevich@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "Arkhipovtimofeyivanovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'o14^ZwSU?p';
+GRANT "Staff" TO "Arkhipovtimofeyivanovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Denisovplatonmikhailovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD '@9q3!8!zLD';
+GRANT "Staff" TO "Denisovplatonmikhailovich@gmail.com" WITH ADMIN OPTION;
+
+
+CREATE ROLE "Petrovskyalexandrkirillovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'jPNmdat!58';
+GRANT "Staff" TO "Petrovskyalexandrkirillovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "KostinGrigorevich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'PU7h@D@P5b';
+GRANT "Staff" TO "KostinGrigorevich@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "Golubevdmitriyantonovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'N??Zj8%d6n';
+GRANT "Staff" TO "Golubevdmitriyantonovich@gmail.com" WITH ADMIN OPTION;
+CREATE ROLE "Kozlovsvyatoslavarsentievich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'wV1M%NjY#&';
+GRANT "Staff" TO "Kozlovsvyatoslavarsentievich@gmail.com" WITH ADMIN OPTION;
+
+
+
+
+
+
+
+
+CREATE ROLE "Kulaginartemkirillovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'z@nv&1!ZYP';
+GRANT "SuperVisor" TO "Kulaginartemkirillovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "IvanovMaksimUrevich@gmail.com"
+                LOGIN
+                SUPERUSER 
+                CREATEDB 
+                CREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'qa1BA&ybjB';
+GRANT "Administrator" TO "IvanovMaksimUrevich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "PodkradkinMihailPavlovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1
+                PASSWORD 'V#!C4MzX8%';
+GRANT "Manager" TO "PodkradkinMihailPavlovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "PetrovGlebPetrovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'Vp36%j^g#u';
+GRANT "Analyst" TO "PetrovGlebPetrovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Tumanovruslanvladimirovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1
+                PASSWORD 'CX3!Rpd1fc';
+GRANT "SuperVisor" TO "Tumanovruslanvladimirovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Prokofievevgeniyromanovich@gmail.com"
+                LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'TK^P1#hdeZ';
+GRANT "SuperVisor" TO "Prokofievevgeniyromanovich@gmail.com" WITH ADMIN OPTION;
+
+CREATE ROLE "Alekseyevakirakirillovna@gmail.com"
+               LOGIN
+                NOSUPERUSER 
+                NOCREATEDB 
+                NOCREATEROLE 
+                INHERIT 
+                NOREPLICATION
+                CONNECTION LIMIT -1 
+                PASSWORD 'BRiMU1Ts^T';
+GRANT "SuperVisor" TO "Alekseyevakirakirillovna@gmail.com" WITH ADMIN OPTION;
